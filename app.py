@@ -21,7 +21,7 @@ import numpy as np # Linear algebra
 #from sklearn.tree import DecisionTreeClassifier
 
 # Save & Loan Model #
-#!pip install joblib
+!pip install joblib
 import joblib
 
 #Install Streamlit library
