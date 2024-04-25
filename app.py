@@ -34,8 +34,9 @@ df_y_validate = pd.read_csv('https://github.com/Datamazing-My/CCP/raw/main/y_val
 df_X_test = pd.read_csv('https://github.com/Datamazing-My/CCP/raw/main/X_test.csv')
 df_y_test = pd.read_csv('https://github.com/Datamazing-My/CCP/raw/main/y_test.csv')
 
-!wget https://raw.githubusercontent.com/Datamazing-My/CCP/main/CCP_01_DT.h5 -O CCP_01_DT.h5
-clf_dt = joblib.load('CCP_01_DT.h5')
+#!wget https://raw.githubusercontent.com/Datamazing-My/CCP/main/CCP_01_DT.h5 -O CCP_01_DT.h5
+#clf_dt = joblib.load('CCP_01_DT.h5')
+clf_dt = joblib.load('https://github.com/Datamazing-My/CCP/raw/main/CCP_01_DT.h5')
 
 st.write("""
 # This is a wed application that predict customer churn!
