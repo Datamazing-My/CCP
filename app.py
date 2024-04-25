@@ -1,6 +1,6 @@
 # Data processing #
 import pandas as pd # Data processing - CSV file I/O.
-import os, shutil, random, glob
+#import os, shutil, random, glob
 import numpy as np # Linear algebra
 
 # Data analysis & visualization #
@@ -8,8 +8,8 @@ import numpy as np # Linear algebra
 #import matplotlib.pyplot as plt # Show image
 
 # Model evaluation #
-from sklearn.utils import shuffle
-from sklearn.utils import all_estimators
+#from sklearn.utils import shuffle
+#from sklearn.utils import all_estimators
 #from sklearn.metrics import confusion_matrix
 #from sklearn.metrics import ConfusionMatrixDisplay
 #from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
@@ -18,7 +18,7 @@ from sklearn.utils import all_estimators
 #from sklearn.metrics import RocCurveDisplay
 
 # Data modeling & evaluation #
-from sklearn.tree import DecisionTreeClassifier
+#from sklearn.tree import DecisionTreeClassifier
 
 # Save & Loan Model #
 #!pip install joblib
