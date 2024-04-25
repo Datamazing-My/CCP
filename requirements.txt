@@ -3,5 +3,3 @@ pandas
 scikit-learn
 joblib
 streamlit
-openai
-requests
