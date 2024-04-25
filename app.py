@@ -22,7 +22,7 @@ import numpy as np # Linear algebra
 
 # Save & Loan Model #
 #!pip install joblib
-#import joblib
+import joblib
 
 #Install Streamlit library
 #!pip install -q streamlit
