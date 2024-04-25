@@ -10,12 +10,12 @@ import numpy as np # Linear algebra
 # Model evaluation #
 from sklearn.utils import shuffle
 from sklearn.utils import all_estimators
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import ConfusionMatrixDisplay
-from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
+#from sklearn.metrics import confusion_matrix
+#from sklearn.metrics import ConfusionMatrixDisplay
+#from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
 
 # ROC Plot #
-from sklearn.metrics import RocCurveDisplay
+#from sklearn.metrics import RocCurveDisplay
 
 # Data modeling & evaluation #
 from sklearn.tree import DecisionTreeClassifier
