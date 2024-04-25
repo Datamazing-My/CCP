@@ -25,7 +25,7 @@ from sklearn.tree import DecisionTreeClassifier
 import joblib
 
 #Install Streamlit library
-!pip install -q streamlit
+#!pip install -q streamlit
 
 df_X_train = pd.read_csv('https://github.com/Datamazing-My/CCP/raw/main/X_train.csv')
 df_y_train = pd.read_csv('https://github.com/Datamazing-My/CCP/raw/main/y_train.csv')
